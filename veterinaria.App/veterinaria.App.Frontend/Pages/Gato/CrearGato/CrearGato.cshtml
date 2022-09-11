@@ -1,0 +1,103 @@
+﻿@page
+@model veterinaria.App.Frontend.Pages.CrearGatoModel
+@{
+}
+<!-- bradcam_area_start -->
+    <div class="bradcam_area breadcam_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="bradcam_text text-center">
+                        <h3>Registrar Gato</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bradcam_area_end -->
+<!--================Blog Area =================-->
+    <section class="blog_area single-post-area section-padding">
+        <div class="container">
+            <div class="row contenedorformulario">
+                <div class="col-lg-12 posts-list">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="contact-title">Datos De La Mascota</h2>
+                        </div>
+                        <div class="col-lg-12">
+                            <form class="form-contact contact_form" action="contact_process.php" method="post"
+                                id="contactForm" novalidate="novalidate">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input class="form-control valid" name="cod" id="cod" type="text"
+                                                onfocus="this.placeholder = ''"
+                                                onblur="this.placeholder = 'Codigo de la mascota'"
+                                                placeholder="Codigo de la mascota">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input class="form-control valid" name="nombreM" id="nombreM" type="text"
+                                                onfocus="this.placeholder = ''"
+                                                onblur="this.placeholder = 'Nombre de la mascota'"
+                                                placeholder="Nombre de la mascota">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input class="form-control valid" name="raza" id="raza" type="text"
+                                                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Raza'"
+                                                placeholder="Raza">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input class="form-control valid" name="edad" id="edad" type="number"
+                                                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Edad'"
+                                                placeholder="Edad">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input class="form-control valid" name="peso" id="peso" type="number"
+                                                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Peso'"
+                                                placeholder="Peso">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input class="form-control valid" name="color" id="color" type="text"
+                                                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Color'"
+                                                placeholder="Color">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input class="form-control valid" name="sexo" id="sexo" type="text"
+                                                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Sexo'"
+                                                placeholder="Sexo">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input class="form-control valid" name="tamano" id="tamano" type="number"
+                                                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Tamaño'"
+                                                placeholder="Tamaño">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group sm-12" style="position: absolute !important; margin-left: 239px !important;">
+                                    <button type="submit" class="button button-contactform boxed-btn">Crear</button>
+                                    <button type="submit"
+                                        class="button button-contactForm boxed-btn">Actualizar</button>                      
+                                    <button type="submit" class="button button-contactForm boxed-btn">Cancelar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================ Blog Area end =================-->

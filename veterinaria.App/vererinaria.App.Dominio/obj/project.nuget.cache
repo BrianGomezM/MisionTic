@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "2RiEzpg7PeTQAi14DniyivUobaNKfUr7G4gxJ9rE5iR1Jqj1VxqldU11TEA1r8EHIKWASDkaVEJA//QJ6N6Urw==",
+  "success": true,
+  "projectFilePath": "D:\\Programacion\\C#\\veterinaria.App\\vererinaria.App.Dominio\\vererinaria.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\braya\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\braya\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
